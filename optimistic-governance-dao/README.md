@@ -130,6 +130,10 @@ git status                      # CHECK: .env and node_modules must NOT be liste
 git commit -m "Initial commit: optimistic governance DAO"
 ```
 
+Example Smart Contract 1: 
+GovernanceToken:   0x4d6C119A2296612981B644Ac13e96aB3F2FbD817
+OptimisticGovernor: 0x0d994Cc66EeF4d1BfD99C7680484B89390a294FF
+
 Create an empty repository on github.com (**New repository**, no README/.gitignore/license since this project has them), then:
 
 ```bash
