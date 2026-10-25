@@ -1,0 +1,23 @@
+# Secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Hardhat build output
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# Local deployment files for throwaway networks
+deployments/hardhat.json
+deployments/localhost.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
